@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px){
+
+    section.banner div{
+        font-size: 35px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+
+    section.thumbImgs ul img{
+        /* max-width: 100%; */
+        display: block;
+        width: 90%;
+        margin: 20px 5%;
+    }
+    section.thumbImgs ul img:hover{
+        width: 89%;
+        margin: 20px 5.5%;
+    }
+    
+    nav li a{
+        font-size: 0.7em;
+    }
+}

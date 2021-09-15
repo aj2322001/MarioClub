@@ -1,0 +1,157 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    background-color: orangered;
+    width: 100%;
+    top:0;
+    left: 0;;
+    position: fixed;
+    z-index: 1;
+    padding: 5px 0px;
+    text-align: center;    
+}
+header div{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    display: inline-block;
+    border: 3px solid yellow;
+    color: yellow;
+    border-radius: 50px;
+    font-size: 40px;
+    padding: 0px 25px;
+}
+
+section.banner{
+    position: relative;
+    font-weight: bold;
+}
+
+section.banner img{
+    max-width: 100%;
+    /* top: 50px; */
+}
+
+section.banner div{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 65px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    /* border: 1px solid black; */
+    padding-left: 10px;
+    color: orangered;
+}
+section.banner div span{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+nav{
+    background-color: orangered;
+    white-space: nowrap;
+    padding: 7px 0px;
+    position: sticky;
+    top: 64.88px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    max-width: 100%;
+    width: 25%;  
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: yellow;
+}
+
+article h3{
+    font-size: 30px;
+    color: red;
+}
+
+article p{
+    color: grey;
+}
+
+section.thumbImgs{
+    max-width: 100%;
+    margin: 10px;
+}
+section.thumbImgs ul{
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+    
+}
+section.thumbImgs ul img{
+    list-style-type: none;
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%;
+}
+
+section.thumbImgs ul img:hover{
+    width: 39%;
+    margin: 20px 5.5%;
+}
+
+form{
+    padding: 40px;
+}
+form label{
+    display: block;
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+}
+form input{
+    display: block;
+    margin: auto;
+}
+form input[type="email"]{
+    border-color: orangered;
+    border-radius: 20px;
+    padding: 7px 20px;
+}
+form input[type="email"]:hover{
+    border-color: orangered;
+    border-radius: 14px;
+    padding: 8px 23px;
+}
+form input[type="email"]:focus{
+    border-color: orangered;
+    outline: none;
+    border-radius: 15px;
+    padding: 7px 20px;
+    font-size: large;
+}
+
+form input[type="submit"]{
+    background-color: yellow;
+    color: red;
+    border-color: white;
+    border-radius: 5px;
+    padding: 7px 20px;
+    position: relative;
+    left: 65px;
+    bottom: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+form input[type="submit"]:hover{
+    border-radius: 8px;
+    padding: 7px 20px;
+    color: white;
+}
+
+footer.copyright{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+}
